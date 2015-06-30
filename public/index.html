@@ -1,0 +1,13 @@
+	<!DOCTYPE html>
+	<html ng-app="device">
+	<head>
+	<script src="js/lib/angular/angular.min.js"></script>
+	<script src="js/controller.js"></script>
+		<title>Recognize device</title>
+	</head>
+	<body ng-controller="MenuCtrl">
+		<div ng-model="pluginResult" id="pluginResult" style="width:300px;height:200px;">{{pluginResult.vendor + " "  + pluginResult.model}}
+		</div>
+	
+</body>
+</html>
